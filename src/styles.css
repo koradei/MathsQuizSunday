@@ -1,1 +1,62 @@
 /* You can add global styles to this file, and also import other style files */
+h1, h2, h3, h4, p, form {
+  font-family: sans-serif;
+}
+body {
+  background-color: #ff5050;
+}
+
+form {
+  margin-top: 20px;
+  font-family: sans-serif;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer; cursor: hand;
+}
+button {
+  font-family: Arial;
+  background-color: #eee;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  cursor: hand;
+}
+button:hover {
+  background-color: #ff8c8c;
+}
+button:disabled {
+  background-color: #eee;
+  color: #aaa;
+  cursor: auto;
+}
+
+button:visited {
+  background-color: blue
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #ff8c8c;
+}
+
+a:link, a:visited {
+    color: (internal value);
+    text-decoration: underline;
+    cursor: auto;
+}
+
+a:link:active, a:visited:active {
+    color: (internal value);
+}
